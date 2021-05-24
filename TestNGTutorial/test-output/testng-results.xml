@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-08T13:09:25 PST" name="Default suite" finished-at="2021-03-08T13:09:25 PST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2021-03-08T13:09:25 PST" name="Default test" finished-at="2021-03-08T13:09:25 PST" duration-ms="68">
+      <class name="Test.Day2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Test.Day2@7ff95560]" started-at="2021-03-08T13:09:25 PST" name="prerequisite" finished-at="2021-03-08T13:09:25 PST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="pLoan()[pri:0, instance:Test.Day2@7ff95560]" started-at="2021-03-08T13:09:25 PST" name="pLoan" finished-at="2021-03-08T13:09:25 PST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
+      </class> <!-- Test.Day2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

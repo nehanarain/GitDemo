@@ -1,0 +1,16 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	// here introduction is test suite not treat as project we create demo.java is test case//
+		
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Neha Narain\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    WebDriver driver= new ChromeDriver();
+		driver.get("https://www.google.com");
+		
+		
+	}
+
+}

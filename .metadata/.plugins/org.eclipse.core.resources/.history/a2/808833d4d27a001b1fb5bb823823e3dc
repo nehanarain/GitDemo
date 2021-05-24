@@ -1,0 +1,28 @@
+package Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class RelativeLoc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Neha Narain\\Downloads\\chromedriver_win32 (5)\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		
+		WebElement nameEditBox = driver.findElement(By.cssSelector("[name='name']"));
+		System.out.println(driver.findElement(withTagName("labels").above(nameEditBox)).getText());
+		
+		WebElement dateofBirth =driver.findElement(By.cssSelector("[for='dateofBirth']"));
+		
+		driver.findElement(withTagname("input").below(nameEditBox)).sendkeys("02/04/1993"));
+	}
+
+	
+	}
+
+
+
